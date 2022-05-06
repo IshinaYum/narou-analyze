@@ -1,0 +1,22 @@
+{
+  "name": "narou-analyze",
+  "version": "0.0.1",
+  "description": "『小説家になろう』の分析用",
+  "main": "main.js",
+  "author": "Ishina Yum",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IshinaYum/narou-analyze.git"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^17.0.30"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "js-yaml": "^4.1.0"
+  }
+}
