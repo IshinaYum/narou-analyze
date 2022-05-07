@@ -153,7 +153,7 @@ async function requestNarou(index:number, offset:number, lastup:string, outFile:
         let lastup = lastest;
         let idx:number = 0;
 
-        while(idx < 18) {
+        while(idx < 1800) {
             const fd = await fs.open(outFilename, idx==0?'w':'a');
 
             let ret = await requestNarou(idx, 0, lastup.toString(), fd);
